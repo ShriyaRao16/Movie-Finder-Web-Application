@@ -1,0 +1,138 @@
+body{
+    box-sizing: border-box;
+    margin:0;
+    font-size: 16px;
+    background-color: rgb(233, 233, 233);
+
+}
+.title{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    background-color:rgb(3, 3, 50);
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+
+}
+
+
+.form-input{
+    border: none;
+    outline:none;
+    background-color: white;
+    padding: 10px 20px;
+    border: 1px solid gray;
+    margin-right: 20px;
+}
+.form-input:focus{
+    border: 2px solid white;
+}
+.search{
+   
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    background-color: rgb(3, 3, 50);
+    font-family: 'lucida Sans', 'Courier New', monospace;
+    color: white;
+    cursor: pointer;
+}
+.search-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 120px;
+    
+}
+.movie-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+.card {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ color: azure;
+ background-color: rgb(3, 3, 50);
+margin: 20px;
+padding: 30px;
+width: 700px;
+    
+}
+.movie-title{
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    margin: 0px 200px;
+}
+.value{
+    font-size: 15px;
+}
+/* ===== CINEMATIC MOVIE CARD STYLE ===== */
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    background: linear-gradient(135deg, #050505, #0b0b3b);
+    border-radius: 15px;
+    padding: 30px 40px;
+    width: fit-content;
+    max-width: 1000px;
+    box-shadow: 0 0 20px rgba(19, 104, 215, 0.3);
+    color: white;
+}
+
+/* Poster */
+.card img {
+    width: 260px;
+    height: 380px;
+   
+}
+
+/* Right section */
+.movie-description {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 500px;
+}
+
+/* Movie title */
+.movie-title b {
+    font-size: 18px;
+    color: #43c6eb;
+    margin-right: 10px;
+}
+
+.value {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+/* Overall spacing fix */
+.movie-cards {
+    margin-top: 60px;
+}
+/* Loading Spinner */
+.loader {
+    border: 6px solid #ddd;
+    border-top: 6px solid rgb(3, 3, 50);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    margin: 40px auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
