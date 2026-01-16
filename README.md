@@ -9,10 +9,10 @@ A simple and interactive Movie Finder web application built using HTML, CSS, and
 🌐 Uses a public movie API (e.g., OMDb API)<br>
 
 # 🛠️ Technologies Used
-HTML5 – Structure of the web application
-CSS3 – Styling and responsive layout
-JavaScript – Fetching data and dynamic content rendering
-Movie API – For retrieving real-time movie data
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
 # Project Structure
 ```
 Movie-Finder/
