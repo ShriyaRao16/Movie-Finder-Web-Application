@@ -38,9 +38,9 @@ const API_KEY = "YOUR_API_KEY";
 
 ```
 # ⚙️ How It Works
-1.)User enters a movie name in the search bar
-2.)JavaScript fetches data from the movie API
-3.)Movie details are dynamically displayed on the webpage
+1.)User enters a movie name in the search bar<br>
+2.)JavaScript fetches data from the movie API<br>
+3.)Movie details are dynamically displayed on the webpage<br>
 
 # 📜 License
 This project is licensed for educational and personal use.
