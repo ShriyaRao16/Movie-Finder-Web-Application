@@ -1,4 +1,4 @@
-# Movie-Finder-web-Application
+# Movie-Finder-Web-Application
 A simple and interactive Movie Finder web application built using HTML, CSS, and JavaScript that allows users to search for movies and view essential details such as title, poster, release year, and ratings.
 
 # 🚀 Features
@@ -25,7 +25,7 @@ Movie-Finder/
 # Setup & Usage
 1.)Clone the repository
 ```
-git clone https://github.com/ShriyaRao16/Movie-Finder.git
+git clone https://github.com/ShriyaRao16/Movie-Finder-Web-Application.git
 ```
 2.)Open```index.html``` in your browser
 3.)Start searching for movies 🎥
