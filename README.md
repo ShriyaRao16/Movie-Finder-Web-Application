@@ -17,9 +17,9 @@ A simple and interactive Movie Finder web application built using HTML, CSS, and
 ```
 Movie-Finder/
 │
-├── index.html      # Main HTML file
-├── style.css       # CSS styles
-├── script.js       # JavaScript logic
+├── movie_finder.html      # Main HTML file
+├── movie_finder.css       # CSS styles
+├── movie_finder.js       # JavaScript logic
 └── README.md       # Project documentation
 ```
 # Setup & Usage
@@ -27,12 +27,12 @@ Movie-Finder/
 ```
 git clone https://github.com/ShriyaRao16/Movie-Finder-Web-Application.git
 ```
-2.)Open```index.html``` in your browser
+2.)Open```movie_finder.html``` in your browser
 3.)Start searching for movies 🎥
 # 🔑 API Configuration
 This project uses a public movie API (e.g., OMDb API).<br>
 1.)Get a free API key from the API provider
-2.)Add the key inside```script.js```
+2.)Add the key inside```movie_finder.js```
 ```
 const API_KEY = "YOUR_API_KEY";
 
